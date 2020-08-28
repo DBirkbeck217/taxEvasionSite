@@ -56,6 +56,17 @@ body {
   margin-top: 2%;
 }
 
+#king {
+  width: 50%;
+  opacity: 0.3;
+}
+
+#king_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (max-width: 800px) {
   #img {
     width: 80%;
