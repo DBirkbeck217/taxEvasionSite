@@ -6,6 +6,10 @@
   -o-animation: fadein 5s; /* Opera */
 }
 
+#img:hover {
+  filter: sepia(1);
+}
+
 @keyframes fadein {
   from {
     opacity: 0;
@@ -49,7 +53,7 @@ body {
 #container {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 
 @media only screen and (max-width: 800px) {
